@@ -1,0 +1,21 @@
+name: napari-sam-prompt
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.2.0
+  - torchvision
+  - pytorch-cuda=12.1
+  - git
+  - matplotlib=3.8.3
+  - opencv=4.9.0
+  - jupyter
+  - jupyterlab
+  - pyqt5
+  - pip
+  - pip:
+    - git+https://github.com/facebookresearch/segment-anything.git
+    - git+https://github.com/fdrgsp/napari-sam-prompt.git
