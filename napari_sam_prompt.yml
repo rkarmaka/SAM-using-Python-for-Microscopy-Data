@@ -14,8 +14,8 @@ dependencies:
   - opencv=4.9.0
   - jupyter
   - jupyterlab
-  - pyqt5
   - pip
   - pip:
+    - pyqt5
     - git+https://github.com/facebookresearch/segment-anything.git
     - git+https://github.com/fdrgsp/napari-sam-prompt.git
