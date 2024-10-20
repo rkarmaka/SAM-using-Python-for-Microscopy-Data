@@ -1,11 +1,11 @@
-name: napari-sam-prompt
+name: sam-i2k
 channels:
   - pytorch
   - nvidia
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - python=3.9
   - pytorch=2.2.0
   - torchvision
   - pytorch-cuda=12.1
@@ -16,6 +16,4 @@ dependencies:
   - jupyterlab
   - pip
   - pip:
-    - pyqt5
     - git+https://github.com/facebookresearch/segment-anything.git
-    - git+https://github.com/fdrgsp/napari-sam-prompt.git
