@@ -1,14 +1,12 @@
-name: sam
+name: sam-i2k
 channels:
   - pytorch
-  - nvidia
   - conda-forge
   - defaults
 dependencies:
   - python=3.9
   - pytorch=2.2.0
   - torchvision
-  - pytorch-cuda=12.1
   - git
   - matplotlib=3.8.3
   - opencv=4.9.0
