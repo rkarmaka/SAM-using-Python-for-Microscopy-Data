@@ -4,6 +4,17 @@ Welcome to the official repository for the **[Segment Anything Using Python for 
 
 This workshop will demonstrate how to use the Segment Anything Model (SAM) for segmenting microscopy data using Python. We will walk through setting up your environment, downloading the model checkpoint, and applying SAM to microscopy datasets. By the end of the workshop, participants will be able to leverage SAM for their image segmentation tasks and make modifications accordingly.
 
+---
+
+## Workshop Details
+
+- **Title**: Segment Anything Using Python for Microscopy Data
+- **Date**: October 25, 2024
+- **Time**: 9:45 am
+- **Location**: Mezzanine Room, Human Technopole
+
+---
+
 ## Setup Instructions
 
 Please follow these steps to prepare for the workshop:
@@ -38,15 +49,6 @@ conda env create -f sam-cpu.yaml
 ### Step 4: Download Model Checkpoint
 Download the model checkpoint using [this link](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and save it inside the `model-checkpoint` folder within the cloned repository.  
 **Note:** The model checkpoint file is 2.39 GB, so please ensure that it is downloaded ahead of the workshop.
-
----
-
-## Workshop Details
-
-- **Title**: Segment Anything Using Python for Microscopy Data
-- **Date**: October 25, 2024
-- **Time**: 9:45 am
-- **Location**: Mezzanine Room, Human Technopole
 
 ---
 
