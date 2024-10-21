@@ -4,12 +4,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.11
   - pytorch=2.2.0
   - torchvision
   - git
   - matplotlib=3.8.3
-  - opencv=4.9.0
+  - opencv
   - jupyter
   - jupyterlab
   - pip
