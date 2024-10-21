@@ -2,3 +2,5 @@
 .ipynb_checkpoints
 __pycache__
 *.pyc
+/outputs
+/temp_files

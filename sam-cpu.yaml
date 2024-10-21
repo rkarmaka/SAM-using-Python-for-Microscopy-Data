@@ -1,0 +1,17 @@
+name: sam-i2k
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.2.0
+  - torchvision
+  - git
+  - matplotlib=3.8.3
+  - opencv=4.9.0
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+    - git+https://github.com/facebookresearch/segment-anything.git
