@@ -48,7 +48,7 @@ conda env create -f sam-cpu.yaml
 
 ### Step 4: Download Model Checkpoint
 Download the model checkpoint using [this link](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and save it inside the `model-checkpoint` folder within the cloned repository.  
-**Note:** The model checkpoint file is 2.39 GB, so please ensure that it is downloaded ahead of the workshop.
+**Note:** *The model checkpoint file is 2.39 GB, so please ensure that it is downloaded ahead of the workshop.*
 
 ---
 
@@ -65,5 +65,3 @@ If you're interested in exploring additional materials related to the workshop, 
 Please feel free to reach out if you have any questions, and we look forward to working with you during the workshop!
 
 ---
-
-This `README.md` provides a clear overview of the repository and the setup process. Let me know if you need further adjustments!
